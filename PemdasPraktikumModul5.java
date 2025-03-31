@@ -8,13 +8,13 @@ public class PemdasPraktikumModul5 {
 
         int hasil3 = calc.times(4, 7);
         int hasil4 = calc.divide(300, 10);
-        int hasil5 = calc.Sederhana(18, 24);
 
         System.out.println("Hasil penjumlahan: " + hasil1);
         System.out.println("Hasil pengurangan: " + hasil2);
         System.out.println("Hasil perkalian: " + hasil3);
         System.out.println("Hasil pembagian: " + hasil4);
-        System.out.println("Hasil penyederhanaan: " + hasil5);
+
+        calc.Sederhana(18, 24);
     }
 }
 

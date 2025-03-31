@@ -21,9 +21,11 @@ public class Kalkulator {
         }
     }
 
-    public int Sederhana(int pembilang, int penyebut) {
+    public void Sederhana(int pembilang, int penyebut) {
         int fpb = cariFPB(pembilang, penyebut);
-        return pembilang / fpb;
+        int newpembilang = pembilang / fpb;
+        int newpenyebut = penyebut / fpb;
+        System.out.println("Hasil penyederhanaan: " + newpembilang + "/" + newpenyebut);
     }
 
     private int cariFPB(int a, int b) {
