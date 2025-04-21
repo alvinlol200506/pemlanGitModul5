@@ -25,6 +25,8 @@ public class PemdasPraktikumModul5 {
         System.out.println("Total harga Jaket A (150 buah): Rp" + jaket.hitungTotal("A", 150)); // kalau jaket ini bakal menggunakan harga yang 95k (normalnya 100k)
         System.out.println("Total harga Jaket B (90 buah): Rp" + jaket.hitungTotal("B", 90)); // kalau jaket ini tetep pakai harga normal 125k (kalau diskon 120k)
         System.out.println("Total harga Jaket C (120 buah): Rp" + jaket.hitungTotal("C", 120)); // kalau jaket ini bakal pakai harga yang 160k (normalnya 175k)
+
+
     }
 }
 
